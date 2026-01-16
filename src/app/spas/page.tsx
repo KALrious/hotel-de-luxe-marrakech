@@ -4,6 +4,12 @@ import { Sparkles } from "lucide-react";
 import { getSpas } from "@/lib/markdown";
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Bien-être & Spas de Luxe à Marrakech | Sanctuaires de Sérénité",
+    description: "Les meilleurs spas et hammams de luxe à Marrakech pour une expérience de détente absolue et de soins orientaux raffinés.",
+};
 
 export default function SpasPage() {
     const spas = getSpas();

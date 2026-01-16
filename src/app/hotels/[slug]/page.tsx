@@ -6,6 +6,19 @@ import HeroDetail from "@/components/HeroDetail";
 import MarkdownContent from "@/components/MarkdownContent";
 import InfoSidebar from "@/components/InfoSidebar";
 import { Check } from "lucide-react";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const { slug } = await params;
+    const hotel = getHotelBySlug(slug);
+
+    if (!hotel) return {};
+
+    return {
+        title: `${hotel.title} | Hôtel de Luxe Marrakech`,
+        description: hotel.description,
+    };
+}
 
 export async function generateStaticParams() {
     const hotels = getHotels();

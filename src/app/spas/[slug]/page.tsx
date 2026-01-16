@@ -6,6 +6,19 @@ import HeroDetail from "@/components/HeroDetail";
 import MarkdownContent from "@/components/MarkdownContent";
 import InfoSidebar from "@/components/InfoSidebar";
 import { Sparkles as SparklesIcon, MapPin as MapPinIcon } from "lucide-react";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const { slug } = await params;
+    const spa = getSpaBySlug(slug);
+
+    if (!spa) return {};
+
+    return {
+        title: `${spa.name} | Spa & Bien-être Marrakech`,
+        description: spa.description,
+    };
+}
 
 export async function generateStaticParams() {
     const spas = getSpas();

@@ -1,5 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Partenariats & Collaboration | Rayonner à Marrakech",
+    description: "Devenez partenaire du premier guide de luxe à Marrakech. Mettez en avant votre établissement auprès d'une clientèle exigeante.",
+};
 import { Award, TrendingUp, Users } from "lucide-react";
 
 export default function PartenariatPage() {

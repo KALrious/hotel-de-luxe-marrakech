@@ -1,6 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Contactez-nous | Palais Ronsard & Guide Marrakech",
+    description: "Une question ? Un projet de partenariat ? Contactez l'équipe du guide Hôtel de Luxe Marrakech et du Palais Ronsard.",
+};
 
 export default function ContactPage() {
     return (

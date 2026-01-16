@@ -6,6 +6,19 @@ import HeroDetail from "@/components/HeroDetail";
 import MarkdownContent from "@/components/MarkdownContent";
 import InfoSidebar from "@/components/InfoSidebar";
 import { Utensils, User } from "lucide-react";
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+    const { slug } = await params;
+    const rest = getRestaurantBySlug(slug);
+
+    if (!rest) return {};
+
+    return {
+        title: `${rest.name} | Gastronomie Marrakech`,
+        description: rest.description,
+    };
+}
 
 export async function generateStaticParams() {
     const restaurants = getRestaurants();

@@ -2,6 +2,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HotelCard from "@/components/HotelCard";
 import { getHotels } from "@/lib/markdown";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Nos Hôtels de Luxe à Marrakech | Sélection d'Exception",
+    description: "Découvrez notre collection exclusive des plus beaux hôtels et palais de Marrakech. Luxe, raffinement et hospitalité marocaine.",
+};
 
 export default function HotelsListingPage() {
     const allHotels = getHotels();

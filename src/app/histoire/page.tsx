@@ -1,5 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Notre Histoire | L'Héritage du Palais Ronsard Marrakech",
+    description: "Découvrez l'histoire de notre guide et l'engagement du Palais Ronsard pour faire rayonner l'excellence marocaine.",
+};
 
 export default function HistoirePage() {
     return (

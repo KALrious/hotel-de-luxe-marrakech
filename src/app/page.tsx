@@ -6,6 +6,12 @@ import { getHotels } from "@/lib/markdown";
 import Link from "next/link";
 import { ArrowRight, Award } from "lucide-react";
 import Image from "next/image";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Hôtel de Luxe Marrakech | Le Guide d'Exception & Réservation",
+  description: "Découvrez les plus beaux hôtels et palais de Marrakech. Guide exclusif, réservations en direct et sélection raffinée par le Palais Ronsard.",
+};
 
 export default function Home() {
   const allHotels = getHotels();

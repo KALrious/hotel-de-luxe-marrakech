@@ -1,5 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Conditions Générales de Vente | Guide Marrakech Luxury",
+    description: "Consultez les conditions générales de vente et de réservation de notre guide des hôtels de luxe à Marrakech.",
+};
 
 export default function CGVPage() {
     return (

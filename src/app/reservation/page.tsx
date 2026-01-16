@@ -1,7 +1,13 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Metadata } from 'next';
 import { getHotels } from "@/lib/markdown";
 import HotelCard from "@/components/HotelCard";
+
+export const metadata: Metadata = {
+    title: "Réservation de Séjours de Luxe à Marrakech",
+    description: "Réservez votre séjour dans les plus beaux palais de Marrakech. Service de conciergerie et offres exclusives Palais Ronsard.",
+};
 
 export default function ReservationPage() {
     const hotels = getHotels();

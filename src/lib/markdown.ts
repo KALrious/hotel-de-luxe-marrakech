@@ -176,3 +176,18 @@ export function getContentItems(subDir: string): ContentItem[] {
             } as ContentItem;
         });
 }
+
+export function getContentItemBySlug(subDir: string, slug: string): ContentItem | null {
+    const fullPath = path.join(contentDirectory, subDir, `${slug}.md`);
+    if (!fs.existsSync(fullPath)) return null;
+
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
+
+    return {
+        slug,
+        ...data,
+        content,
+    } as ContentItem;
+}
+

@@ -3,6 +3,12 @@ import Footer from "@/components/Footer";
 import { Utensils } from "lucide-react";
 import { getRestaurants } from "@/lib/markdown";
 import Link from "next/link";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "Gastronomie & Tables d'Exception à Marrakech",
+    description: "Explorez les meilleures adresses gastronomiques de Marrakech. Du potager bio du Palais Ronsard aux tables impériales de la ville.",
+};
 
 export default function GastronomiePage() {
     const restaurants = getRestaurants();
