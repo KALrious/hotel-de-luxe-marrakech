@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-import { getHotels, getRestaurants, getSpas, getContentItems } from '@/lib/markdown'
+import { getHotels, getRestaurants, getSpas, getFtours, getContentItems } from '@/lib/markdown'
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://hotel-de-luxe-marrakech.com' // Replace with actual domain
@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/hotels',
         '/gastronomie',
         '/spas',
+        '/ftour',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
@@ -49,6 +50,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
     }))
 
+    const ftours = getFtours().map((ftour) => ({
+        url: `${baseUrl}/ftour/${ftour.slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
+    }))
+
     const articles = getContentItems('articles').map((item) => ({
         url: `${baseUrl}/articles/${item.slug}`,
         lastModified: new Date(),
@@ -75,6 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ...hotels,
         ...restaurants,
         ...spas,
+        ...ftours,
         ...articles,
         ...guides,
         ...interviews,
