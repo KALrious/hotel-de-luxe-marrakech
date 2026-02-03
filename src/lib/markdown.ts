@@ -41,6 +41,21 @@ export interface SpaData {
     content: string;
 }
 
+export interface FtourData {
+    slug: string;
+    name: string;
+    hotel: string;
+    description: string;
+    image: string;
+    timing: string;
+    price: string;
+    highlights: string[];
+    bookingUrl: string;
+    featured?: boolean;
+    ramadanDates?: string;
+    content: string;
+}
+
 export function getHotels(): HotelData[] {
     const hotelsPath = path.join(contentDirectory, "hotels");
     if (!fs.existsSync(hotelsPath)) return [];
@@ -145,6 +160,42 @@ export function getRestaurantBySlug(slug: string): RestaurantData | null {
         ...data,
         content,
     } as RestaurantData;
+}
+
+export function getFtours(): FtourData[] {
+    const ftoursPath = path.join(contentDirectory, "ftour");
+    if (!fs.existsSync(ftoursPath)) return [];
+
+    const fileNames = fs.readdirSync(ftoursPath);
+    return fileNames
+        .filter((fileName) => fileName.endsWith(".md"))
+        .map((fileName) => {
+            const slug = fileName.replace(/\.md$/, "");
+            const fullPath = path.join(ftoursPath, fileName);
+            const fileContents = fs.readFileSync(fullPath, "utf8");
+            const { data, content } = matter(fileContents);
+
+            return {
+                slug,
+                ...data,
+                content,
+            } as FtourData;
+        })
+        .sort((a, b) => (a.featured === b.featured ? 0 : a.featured ? -1 : 1));
+}
+
+export function getFtourBySlug(slug: string): FtourData | null {
+    const fullPath = path.join(contentDirectory, "ftour", `${slug}.md`);
+    if (!fs.existsSync(fullPath)) return null;
+
+    const fileContents = fs.readFileSync(fullPath, "utf8");
+    const { data, content } = matter(fileContents);
+
+    return {
+        slug,
+        ...data,
+        content,
+    } as FtourData;
 }
 
 export interface ContentItem {

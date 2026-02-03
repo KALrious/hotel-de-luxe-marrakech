@@ -20,6 +20,7 @@ export default function Navbar({ dark = false }: { dark?: boolean }) {
         { title: "Hôtels", href: "/hotels" },
         { title: "Spas", href: "/spas" },
         { title: "Restaurants", href: "/gastronomie" },
+        { title: "Ftour", href: "/ftour" },
         { title: "Magazine", href: "/articles" },
         { title: "Galerie", href: "/galerie" },
     ];
