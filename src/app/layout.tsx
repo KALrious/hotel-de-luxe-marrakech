@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Hôtel de Luxe Marrakech - Le Guide d'Exception",
   description: "Référencement des plus beaux hôtels de luxe à Marrakech, avec une mise en avant exclusive du Palais Ronsard Relais & Châteaux.",
-  metadataBase: new URL('https://hotel-de-luxe-marrakech.com'),
+  metadataBase: new URL('https://www.hotel-de-luxe-marrakech.com'),
   alternates: {
     canonical: '/',
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Hôtel de Luxe Marrakech - Le Guide d'Exception",
     description: "Référencement des plus beaux hôtels de luxe à Marrakech, avec une mise en avant exclusive du Palais Ronsard Relais & Châteaux.",
-    url: "https://hotel-de-luxe-marrakech.com",
+    url: "https://www.hotel-de-luxe-marrakech.com",
     siteName: "Hôtel de Luxe Marrakech",
     images: [
       {
