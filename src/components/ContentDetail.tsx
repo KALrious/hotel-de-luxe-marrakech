@@ -44,7 +44,12 @@ export default async function ContentDetail({ slug, type }: ContentDetailProps) 
             prose-p:font-sans prose-p:text-stone-600 prose-p:leading-relaxed
             prose-strong:text-luxury-charcoal prose-strong:font-bold
             prose-a:text-gold-600 prose-a:no-underline hover:prose-a:underline">
-                        <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        <ReactMarkdown
+                            remarkPlugins={[remarkGfm]}
+                            components={{
+                                h1: ({ children }) => <h2>{children}</h2>,
+                            }}
+                        >
                             {content}
                         </ReactMarkdown>
                     </div>
