@@ -1,7 +1,7 @@
 ---
 title: "L'excellence selon Marc-Antoine"
 date: "2026-01-10"
-description: "Entretien exclusif avec le Directeur de l'un des plus mythiques palaces de la ville."
+description: "Entretien exclusif avec le Directeur de l'un des plus mythiques palaces de Marrakech, sur l'excellence du service, l'innovation discrète et l'art de l'hospitalité marocaine."
 image: "/images/interviews/manager.jpg"
 ---
 

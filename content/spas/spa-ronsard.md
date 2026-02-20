@@ -1,7 +1,7 @@
 ---
 name: "Spa Palais Ronsard"
 hotel: "Palais Ronsard Relais & Châteaux"
-description: "Un sanctuaire dédié à la rose et à la sérénité absolue, au cœur de la Palmeraie."
+description: "Sanctuaire dédié à la rose et à la sérénité absolue au cœur de la Palmeraie, avec rituels ancestraux revisités, hammam traditionnel et soins signature Relais & Châteaux."
 image: "/images/hotels/palais-ronsard/le-spa-du-palais-ronsard-relais-chateau.jpg"
 highlights: ["Hammam Traditionnel", "Soins à la Rose", "Massage Signature"]
 bookingUrl: "/contact"

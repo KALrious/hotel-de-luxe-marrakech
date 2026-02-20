@@ -2,7 +2,7 @@
 title: "Es Saadi Marrakech Resort - Palace"
 featured: false
 stars: 5
-description: "Palace historique au cœur de l'Hivernage, alliant héritage des années 50 et luxe contemporain."
+description: "Palace emblématique de Marrakech depuis 1952, au cœur de l'Hivernage, alliant héritage des années dorées, spa oriental de 3500m², casino et luxe contemporain incomparable."
 category: "Palace"
 image: "/images/hotels/es-saadi/saadi.png"
 location: "Hivernage, Marrakech"

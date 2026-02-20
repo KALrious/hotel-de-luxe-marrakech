@@ -2,7 +2,7 @@
 title: "Sofitel Marrakech Lounge and Spa"
 featured: false
 stars: 5
-description: "Élégance à la française au cœur de l'Hivernage, alliant art de vivre et bien-être d'exception."
+description: "Hôtel 5 étoiles au cœur de l'Hivernage alliant élégance à la française, art de vivre raffiné et bien-être d'exception avec son So SPA de 2500m² et ses jardins de 6 hectares."
 category: "Palace"
 image: "/images/hotels/sofitel/sofitel.png"
 location: "Rue Harroun Errachid, Hivernage, Marrakech"

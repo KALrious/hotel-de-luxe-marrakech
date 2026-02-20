@@ -2,7 +2,7 @@
 name: "La Grande Table Marocaine"
 hotel: "Royal Mansour Marrakech"
 cuisine: "Haute Gastronomie Marocaine"
-description: "Le summum de la gastronomie marocaine dans un cadre impérial et majestueux."
+description: "Summum de la haute gastronomie marocaine au Royal Mansour, sous la direction de la chef étoilée Hélène Darroze, dans un décor impérial et majestueux à couper le souffle."
 chef: "Hélène Darroze"
 image: "/images/hotels/royal-mansour/grande-table.png"
 bookingUrl: "https://www.royalmansour.com/restaurants/la-grande-table-marocaine/"

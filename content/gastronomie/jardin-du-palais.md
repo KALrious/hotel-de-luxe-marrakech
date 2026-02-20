@@ -2,7 +2,7 @@
 name: "Le Verger du Palais Ronsard"
 hotel: "Palais Ronsard Relais & Châteaux"
 cuisine: "Méditerranéenne & Potager"
-description: "Une cuisine sublimée par les produits du potager bio du palais, servie dans un cadre enchanteur."
+description: "Cuisine méditerranéenne et du potager sublimée par les produits bio du Palais Ronsard, servie dans un cadre enchanteur à l'ombre des oliviers ou sous les étoiles de la Palmeraie."
 chef: "Alexandre Thomas"
 image: "/images/hotels/palais-ronsard/restaurant-le-verger-relais-chateau.jpg"
 bookingUrl: "/contact"

@@ -2,7 +2,7 @@
 title: "Selman Marrakech"
 featured: false
 stars: 5
-description: "Un palace unique célèbre pour sa collection de chevaux arabes pur-sang et son luxe contemporain."
+description: "Palace d'exception à Marrakech, célèbre pour sa collection de chevaux arabes pur-sang, son Spa Chenot de 3000m², ses jardins andalous et son luxe contemporain épuré."
 category: "Palace"
 image: "/images/hotels/selman/selman.png"
 location: "Route du Barrage, Marrakech"

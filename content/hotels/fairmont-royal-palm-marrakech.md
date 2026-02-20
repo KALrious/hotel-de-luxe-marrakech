@@ -2,7 +2,7 @@
 title: "Fairmont Royal Palm Marrakech"
 featured: false
 stars: 5
-description: "Resort golf de luxe dans un domaine de 231 hectares, alliant sport de haut niveau et bien-être."
+description: "Resort golf de luxe dans un domaine de 231 hectares au pied de l'Atlas, alliant parcours championship, Spa Carita de 2500m², sport de haut niveau et bien-être d'exception."
 category: "Palace"
 image: "/images/hotels/fairmont/fairmont.png"
 location: "Route d'Amizmiz, La Palmeraie, Marrakech"
