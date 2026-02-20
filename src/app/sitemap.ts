@@ -8,7 +8,7 @@ import {
 } from "@/lib/markdown";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://hotel-de-luxe-marrakech.com"; // Replace with actual domain
+  const baseUrl = "https://www.hotel-de-luxe-marrakech.com";
 
   // Static routes
   const staticRoutes = [
