@@ -1,7 +1,7 @@
 ---
 name: "Le Spa de La Mamounia"
 hotel: "La Mamounia"
-description: "Une immersion sensorielle entre tradition millénaire et expertise cosmétique moderne."
+description: "Immersion sensorielle unique de 2500m² à La Mamounia, entre tradition millénaire marocaine et expertise cosmétique moderne, avec hammam, piscine et soins Augustinus Bader."
 image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=1000"
 highlights: ["Tradition Marocaine", "Soins Augustinus Bader", "Piscine Intérieure Iconic"]
 bookingUrl: "https://mamounia.com/fr/spa/"

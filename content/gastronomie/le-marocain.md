@@ -2,7 +2,7 @@
 name: "Le Marocain"
 hotel: "La Mamounia"
 cuisine: "Traditionnelle Marocaine"
-description: "Une expérience feutrée et authentique au cœur des jardins légendaires de La Mamounia."
+description: "Expérience gastronomique feutrée et authentique au cœur des jardins légendaires de La Mamounia, célébrant les saveurs les plus nobles et raffinées de la cuisine marocaine."
 chef: "Chef de La Mamounia"
 image: "/images/hotels/mamounia/marocain.png"
 bookingUrl: "https://mamounia.com/fr/restauration/le-marocain/"
