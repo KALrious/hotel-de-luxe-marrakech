@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: `${spa.name} | Spa & Bien-être Marrakech`,
         description: spa.description,
+        alternates: {
+            canonical: `/spas/${slug}`,
+        },
     };
 }
 

@@ -6,6 +6,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Contactez-nous | Palais Ronsard & Guide Marrakech",
     description: "Une question ? Un projet de partenariat ? Contactez l'équipe du guide Hôtel de Luxe Marrakech et du Palais Ronsard.",
+    alternates: {
+        canonical: '/contact',
+    },
 };
 
 export default function ContactPage() {

@@ -16,9 +16,6 @@ export const metadata: Metadata = {
   title: "Hôtel de Luxe Marrakech - Le Guide d'Exception",
   description: "Référencement des plus beaux hôtels de luxe à Marrakech, avec une mise en avant exclusive du Palais Ronsard Relais & Châteaux.",
   metadataBase: new URL('https://www.hotel-de-luxe-marrakech.com'),
-  alternates: {
-    canonical: '/',
-  },
   icons: {
     icon: [
       { url: "/icon.svg", sizes: "any" },

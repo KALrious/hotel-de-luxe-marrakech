@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: `${hotel.title} | Hôtel de Luxe Marrakech`,
         description: hotel.description,
+        alternates: {
+            canonical: `/hotels/${slug}`,
+        },
     };
 }
 

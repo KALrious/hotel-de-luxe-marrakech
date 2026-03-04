@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Interviews & Rencontres | Les Visages de Marrakech",
     description: "Rencontrez les personnalités qui font vibrer Marrakech. Interviews exclusives avec des chefs, artistes et hôteliers d'exception.",
+    alternates: {
+        canonical: '/interviews',
+    },
 };
 
 export default function InterviewsPage() {

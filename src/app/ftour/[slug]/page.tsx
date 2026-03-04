@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: `${ftour.name} | Ftour Ramadan 2026 Marrakech`,
         description: ftour.description,
+        alternates: {
+            canonical: `/ftour/${slug}`,
+        },
     };
 }
 

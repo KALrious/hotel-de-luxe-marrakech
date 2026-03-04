@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   title: "Hôtel de Luxe Marrakech | Le Guide d'Exception & Réservation",
   description:
     "Découvrez les plus beaux hôtels et palais de Marrakech. Guide exclusif, réservations en direct et sélection raffinée par le Palais Ronsard.",
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function Home() {

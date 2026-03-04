@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Mentions Légales | Hôtel de Luxe Marrakech",
     description: "Informations légales concernant l’éditeur du site et les conditions d’utilisation du guide Hôtel de Luxe Marrakech.",
+    alternates: {
+        canonical: '/mentions-legales',
+    },
 };
 
 export default function MentionsLegalesPage() {

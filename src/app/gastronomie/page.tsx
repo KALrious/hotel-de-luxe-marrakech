@@ -8,6 +8,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Gastronomie & Tables d'Exception à Marrakech",
     description: "Explorez les meilleures adresses gastronomiques de Marrakech. Du potager bio du Palais Ronsard aux tables impériales de la ville.",
+    alternates: {
+        canonical: '/gastronomie',
+    },
 };
 
 export default function GastronomiePage() {

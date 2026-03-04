@@ -7,6 +7,9 @@ import HotelCard from "@/components/HotelCard";
 export const metadata: Metadata = {
     title: "Réservation de Séjours de Luxe à Marrakech",
     description: "Réservez votre séjour dans les plus beaux palais de Marrakech. Service de conciergerie et offres exclusives Palais Ronsard.",
+    alternates: {
+        canonical: '/reservation',
+    },
 };
 
 export default function ReservationPage() {
