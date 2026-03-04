@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Oasis de luxe de 28 hectares dans la Palmeraie, incarnant l'élégance intemporelle et l'hospitalité Oberoi."
 category: "Palace"
-image: "/images/hotels/oberoi/oberoi.png"
+image: "/images/hotels/oberoi/oberoi.webp"
 location: "Rue Harroun Errachid, La Palmeraie, Marrakech"
 amenities:
   - "Villas avec piscine privée"

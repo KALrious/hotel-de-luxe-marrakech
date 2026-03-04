@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Hôtel 5 étoiles au cœur de l'Hivernage alliant élégance à la française, art de vivre raffiné et bien-être d'exception avec son So SPA de 2500m² et ses jardins de 6 hectares."
 category: "Palace"
-image: "/images/hotels/sofitel/sofitel.png"
+image: "/images/hotels/sofitel/sofitel.webp"
 location: "Rue Harroun Errachid, Hivernage, Marrakech"
 amenities:
   - "So SPA de 2500 m² by Sofitel"

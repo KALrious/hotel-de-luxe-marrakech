@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     siteName: "Hôtel de Luxe Marrakech",
     images: [
       {
-        url: "/images/hotels/palais-ronsard-hero.png",
+        url: "/images/hotels/palais-ronsard-hero.webp",
         width: 1200,
         height: 630,
         alt: "Hôtel de Luxe Marrakech",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Hôtel de Luxe Marrakech - Le Guide d'Exception",
     description: "Référencement des plus beaux hôtels de luxe à Marrakech, avec une mise en avant exclusive du Palais Ronsard Relais & Châteaux.",
-    images: ["/images/hotels/palais-ronsard-hero.png"],
+    images: ["/images/hotels/palais-ronsard-hero.webp"],
   },
 };
 

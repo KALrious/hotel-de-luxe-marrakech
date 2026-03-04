@@ -2,7 +2,7 @@
 name: "Le Spa Royal Mansour"
 hotel: "Royal Mansour Marrakech"
 description: "Temple du bien-être de 2500m² au Royal Mansour, l'apogée du luxe sous une dentelle blanche, avec soins Sisley exclusifs, hammam d'art et bassin de nage hors du temps."
-image: "/images/hotels/royal-mansour/spa-royal-mansour.png"
+image: "/images/hotels/royal-mansour/spa-royal-mansour.webp"
 highlights: ["L'Art du Hammam", "Soins Sisley", "Bassin de Nage"]
 bookingUrl: "https://www.royalmansour.com/spa/"
 ---

@@ -2,7 +2,7 @@
 name: "Ftour Majestueux à La Mamounia"
 hotel: "La Mamounia"
 description: "Vivez un ftour légendaire dans le palace emblématique de Marrakech, où tradition et excellence gastronomique se rencontrent."
-image: "/images/ftour/mamounia-ftour.png"
+image: "/images/ftour/mamounia-ftour.webp"
 timing: "19h00 - 22h00"
 price: "1200 DH par personne"
 highlights:

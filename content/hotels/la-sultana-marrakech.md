@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Maison d'hôtes de luxe intimiste au pied de la Koutoubia, mêlant authenticité et raffinement contemporain."
 category: "Palace"
-image: "/images/hotels/sultana/sultana.png"
+image: "/images/hotels/sultana/sultana.webp"
 location: "Kasbah, Médina de Marrakech"
 amenities:
   - "Spa La Sultana avec hammam"

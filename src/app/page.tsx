@@ -30,7 +30,7 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[20000ms] hover:scale-110"
           style={{
-            backgroundImage: `url('/images/hotels/palais-ronsard-hero.png')`,
+            backgroundImage: `url('/images/hotels/palais-ronsard-hero.webp')`,
           }}
         >
           <div className="absolute inset-0 bg-black/50" />
@@ -67,7 +67,7 @@ export default function Home() {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105"
                 style={{
-                  backgroundImage: `url('images/hotels/palais-ronsard/le-relais-et-cahteaux-palais-ronsard-au-coucher-de-soleil.jpg')`,
+                  backgroundImage: `url('images/hotels/palais-ronsard/le-relais-et-cahteaux-palais-ronsard-au-coucher-de-soleil.webp')`,
                 }}
               />
               <div className="absolute top-0 right-0 bg-white/95 backdrop-blur-sm shadow-2xl p-6 flex flex-col items-center border-l-4 border-gold-500 transform translate-x-4 -translate-y-4">
@@ -348,7 +348,7 @@ export default function Home() {
             <div className="relative aspect-square">
               <div className="absolute inset-0 bg-stone-900 flex items-center justify-center border border-stone-800">
                 <Image
-                  src="/images/hotels/l-art-de-vivre.jpg"
+                  src="/images/hotels/l-art-de-vivre.webp"
                   alt="L'Art de Vivre"
                   fill
                 />

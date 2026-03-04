@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Palace d'exception à Marrakech, célèbre pour sa collection de chevaux arabes pur-sang, son Spa Chenot de 3000m², ses jardins andalous et son luxe contemporain épuré."
 category: "Palace"
-image: "/images/hotels/selman/selman.png"
+image: "/images/hotels/selman/selman.webp"
 location: "Route du Barrage, Marrakech"
 amenities:
   - "Écurie de chevaux arabes pur-sang"

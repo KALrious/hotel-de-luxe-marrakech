@@ -4,7 +4,7 @@ hotel: "Palais Ronsard Relais & Châteaux"
 cuisine: "Cuisine Gastronomique"
 description: "Un voyage culinaire d'exception dans un décor inspiré des années 30, mêlant élégance intemporelle et saveurs raffinées."
 chef: "Alexandre Thomas"
-image: "/images/hotels/palais-ronsard/restaurant-le-jardin-d-hiver-relais-chateau.jpg"
+image: "/images/hotels/palais-ronsard/restaurant-le-jardin-d-hiver-relais-chateau.webp"
 bookingUrl: "/contact"
 ---
 

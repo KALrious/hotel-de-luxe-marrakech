@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Un resort d'exception au pied de l'Atlas, offrant villas privées et service légendaire Mandarin Oriental."
 category: "Palace"
-image: "/images/hotels/mandarin-oriental/mandarin-oriental.png"
+image: "/images/hotels/mandarin-oriental/mandarin-oriental.webp"
 location: "Route du Golf Amelkis, Marrakech"
 amenities:
   - "Spa Mandarin Oriental primé"
