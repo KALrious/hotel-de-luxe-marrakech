@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Magazine & Art de Vivre à Marrakech | Palais Ronsard",
     description: "Découvrez nos articles sur l'art de vivre, la culture et les secrets de Marrakech à travers notre magazine exclusif.",
+    alternates: {
+        canonical: '/articles',
+    },
 };
 
 export default function ArticlesPage() {

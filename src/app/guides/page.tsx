@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Guides Pratiques Marrakech | Conseils & Incontournables",
     description: "Tout ce qu'il faut savoir pour préparer votre séjour à Marrakech : shopping de luxe, visites culturelles et bonnes adresses.",
+    alternates: {
+        canonical: '/guides',
+    },
 };
 
 export default function GuidesPage() {

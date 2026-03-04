@@ -9,6 +9,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Bien-être & Spas de Luxe à Marrakech | Sanctuaires de Sérénité",
     description: "Les meilleurs spas et hammams de luxe à Marrakech pour une expérience de détente absolue et de soins orientaux raffinés.",
+    alternates: {
+        canonical: '/spas',
+    },
 };
 
 export default function SpasPage() {

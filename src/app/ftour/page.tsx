@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Ftour Ramadan 2026 - Tables d'Exception à Marrakech",
   description:
     "Découvrez les meilleures offres de ftour pour le Ramadan 2026 dans les palaces de Marrakech. Une célébration gastronomique du mois sacré.",
+  alternates: {
+    canonical: '/ftour',
+  },
 };
 
 export default function FtourPage() {

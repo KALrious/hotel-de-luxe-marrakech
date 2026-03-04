@@ -6,6 +6,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Galerie Photos | L'Esprit du Palais Ronsard en Images",
     description: "Explorez notre galerie photos pour découvrir l'architecture, les jardins et l'atmosphère unique de Marrakech et du Palais Ronsard.",
+    alternates: {
+        canonical: '/galerie',
+    },
 };
 
 export default function GaleriePage() {

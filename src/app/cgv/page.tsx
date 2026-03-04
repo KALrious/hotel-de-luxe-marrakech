@@ -5,6 +5,9 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
     title: "Conditions Générales de Vente | Guide Marrakech Luxury",
     description: "Consultez les conditions générales de vente et de réservation de notre guide des hôtels de luxe à Marrakech.",
+    alternates: {
+        canonical: '/cgv',
+    },
 };
 
 export default function CGVPage() {

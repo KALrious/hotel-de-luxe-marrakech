@@ -17,6 +17,9 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     return {
         title: `${rest.name} | Gastronomie Marrakech`,
         description: rest.description,
+        alternates: {
+            canonical: `/gastronomie/${slug}`,
+        },
     };
 }
 
