@@ -2,7 +2,7 @@
 title: "Les Secrets de la Palmeraie"
 date: "2026-01-14"
 description: "Plongée au cœur de la Palmeraie de Marrakech, forêt historique fondée au XIIe siècle et refuge secret des plus beaux palais, jardins et propriétés d'exception de la ville."
-image: "/images/articles/palmerais.jpg"
+image: "/images/articles/palmerais.webp"
 ---
 
 # Les Secrets de la Palmeraie

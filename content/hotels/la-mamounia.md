@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "La Grande Dame de Marrakech depuis 1923, un palace mythique mêlant histoire glorieuse, glamour absolu et élégance intemporelle au sein de 8 hectares de jardins enchanteurs."
 category: "Palace"
-image: "/images/hotels/mamounia/mamounia.png"
+image: "/images/hotels/mamounia/mamounia.webp"
 location: "Médina, Marrakech"
 amenities:
   [

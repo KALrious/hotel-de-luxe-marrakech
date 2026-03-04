@@ -4,7 +4,7 @@ hotel: "La Mamounia"
 cuisine: "Traditionnelle Marocaine"
 description: "Expérience gastronomique feutrée et authentique au cœur des jardins légendaires de La Mamounia, célébrant les saveurs les plus nobles et raffinées de la cuisine marocaine."
 chef: "Chef de La Mamounia"
-image: "/images/hotels/mamounia/marocain.png"
+image: "/images/hotels/mamounia/marocain.webp"
 bookingUrl: "https://mamounia.com/fr/restauration/le-marocain/"
 ---
 

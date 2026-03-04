@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Un sanctuaire Aman Resorts inspiré des palais sultans, où sérénité et luxe discret règnent en maîtres."
 category: "Palace"
-image: "/images/hotels/amanjena/amanjena.png"
+image: "/images/hotels/amanjena/amanjena.webp"
 location: "Route de Ouarzazate, La Palmeraie, Marrakech"
 amenities:
   - "Pavillons privés avec piscine"

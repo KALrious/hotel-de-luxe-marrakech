@@ -2,7 +2,7 @@
 name: "Ftour Royal au Palais Ronsard"
 hotel: "Palais Ronsard"
 description: "Une expérience exclusive au cœur de la Palmeraie : découvrez un ftour raffiné dans un cadre enchanteur, célébrant les traditions culinaires marocaines."
-image: "/images/ftour/ftour-palais-ronsard.jpg"
+image: "/images/ftour/ftour-palais-ronsard.webp"
 timing: "19h00 - 21h30"
 price: "690 DH par personne"
 highlights:

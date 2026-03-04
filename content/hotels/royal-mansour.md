@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Une prouesse architecturale et artisanale, conçue comme une médina privée au service du luxe absolu."
 category: "Palace"
-image: "/images/hotels/royal-mansour/royal-mansour.png"
+image: "/images/hotels/royal-mansour/royal-mansour.webp"
 location: "Médina, Marrakech"
 amenities:
   [

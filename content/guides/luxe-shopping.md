@@ -2,7 +2,7 @@
 title: "Marrakech : Le Guide du Shopping de Luxe"
 date: "2026-01-12"
 description: "Guide complet du shopping de luxe à Marrakech : des concept-stores contemporains de Guéliz aux ateliers confidentiels et showrooms privés de la Médina historique."
-image: "/images/articles/palmerais.jpg"
+image: "/images/articles/palmerais.webp"
 ---
 
 # Marrakech : Le Guide du Shopping de Luxe

@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Palace emblématique de Marrakech depuis 1952, au cœur de l'Hivernage, alliant héritage des années dorées, spa oriental de 3500m², casino et luxe contemporain incomparable."
 category: "Palace"
-image: "/images/hotels/es-saadi/saadi.png"
+image: "/images/hotels/es-saadi/saadi.webp"
 location: "Hivernage, Marrakech"
 amenities:
   - "Spa Orientale de 3500 m²"

@@ -4,7 +4,7 @@ featured: true
 stars: 5
 description: "Un havre de paix Relais & Châteaux au cœur de la Palmeraie, où l'élégance française rencontre le charme oriental."
 category: "Palace"
-image: "/images/hotels/palais-ronsard/le-relais-et-cahteaux-palais-ronsard-au-coucher-de-soleil.jpg"
+image: "/images/hotels/palais-ronsard/le-relais-et-cahteaux-palais-ronsard-au-coucher-de-soleil.webp"
 location: "La Palmeraie, Marrakech"
 amenities: ["Spa de 200m²", "Piscine", "4 restaurants dont le Jardin d'Hiver", "Jardins méditerranéens", "Service Relais & Châteaux", "Clé Michelin 2025"]
 bookingUrl: "https://palaisronsard.com"

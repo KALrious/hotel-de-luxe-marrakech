@@ -2,7 +2,7 @@
 name: "Ftour Impérial au Royal Mansour"
 hotel: "Royal Mansour"
 description: "Un ftour d'exception où l'art culinaire marocain atteint son apogée dans le cadre somptueux du palace le plus raffiné de Marrakech."
-image: "/images/ftour/royal-mansour-ftour.png"
+image: "/images/ftour/royal-mansour-ftour.webp"
 timing: "19h15 - 22h30"
 price: "1500 DH par personne"
 highlights:

@@ -4,7 +4,7 @@ featured: false
 stars: 5
 description: "Resort de luxe niché dans 16 hectares de la Palmeraie de Marrakech, alliant l'élégance contemporaine Four Seasons, l'art marocain et un service impeccable 24h/24."
 category: "Palace"
-image: "/images/hotels/four-seasons/four-season.png"
+image: "/images/hotels/four-seasons/four-season.webp"
 location: "La Palmeraie, Marrakech"
 amenities:
   - "Spa de luxe Four Seasons"
